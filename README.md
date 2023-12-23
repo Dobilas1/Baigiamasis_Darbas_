@@ -44,3 +44,13 @@
 * 5 Irasyti klaidinga slaptazodi
 * 6 Spausti prisijungti "Prisijungti"
 > Prisijungti nepavyksta, "Pateiktas el. pašto adresas ir/arba slaptažodis yra neteisingi."
+
+### AddToCartTest
+* 1 Atidaryti svetaine "varle.lt"
+* 2 Sutikti su "Cookies"
+* 3 Spausti ant "Sportas ir laisvalaikis"
+* 4 Spausti ant "Slides"
+* 5 Spausti ant kokretaus produkto
+* 6 Spausti ideti i krepseli
+* 7 Paspausti pirkti
+> Produktas atsiranda krepselyje
