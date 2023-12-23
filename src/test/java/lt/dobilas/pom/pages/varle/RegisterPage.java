@@ -9,7 +9,6 @@ public class RegisterPage {
         Common.openUrl(url);
     }
 
-
     public static void clickOnButtonAcceptCookies() {
         Common.clickOnElement(Locator.Varle.Register.buttonLeistiVisusSlapukus);
     }

@@ -6,7 +6,6 @@ import org.openqa.selenium.WebElement;
 
 import java.time.Duration;
 
-
 public class Common {
 
     public static void setUpChrome(int durationOfSeconds) {
