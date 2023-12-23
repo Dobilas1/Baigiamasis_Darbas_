@@ -26,7 +26,7 @@ public class AddToCartTest extends TestBase {
         AddToCartPage.clickOnExactProduct();
         AddToCartPage.addToCart();
         try {
-            // Labai atsiprasau uz sita, kitaip nepavyko :(
+            // Labai atsiprasau uz sita, kitaip nepavyko.
             Thread.sleep(1000);
         } catch (InterruptedException e) {
             e.printStackTrace();
