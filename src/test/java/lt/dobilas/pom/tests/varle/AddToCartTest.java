@@ -14,10 +14,9 @@ public class AddToCartTest extends TestBase {
     }
 
     @Test
-    public void test() {
+    public void AddToCardTest() {
         String expectedResult = "Krepšelis";
         String actualResult;
-
 
         AddToCartPage.clickOnAcceptCookies();
         AddToCartPage.clickOnSportasLaisvalaikis();
@@ -25,14 +24,7 @@ public class AddToCartTest extends TestBase {
         AddToCartPage.clickOnSlides();
         AddToCartPage.clickOnExactProduct();
         AddToCartPage.addToCart();
-        try {
-            // Labai atsiprasau uz sita, kitaip nepavyko.
-            Thread.sleep(1000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
         AddToCartPage.clickOnPirkti();
-
 
         actualResult = AddToCartPage.readText();
 

@@ -17,7 +17,6 @@ public class RegisterTest extends TestBase {
     @Test
     public void testRegisterPositive() {
         String email = "karvyte474@gmail.com";
-        // rankiniu budu reikes pakeist el.pasta jeigu leisit antra karta, pirmas veiks puikiai.
         String password = "asd181";
         String expectedResult = "Sveiki,";
         String actualResult;
@@ -31,12 +30,10 @@ public class RegisterTest extends TestBase {
         RegisterPage.acceptTos();
         RegisterPage.clickOnButtonSubmit();
 
-
         actualResult = RegisterPage.readLoginName();
 
         Assert.assertEquals(actualResult, expectedResult);
     }
-
 
     @Test
     public void testRegisterNegative() {
@@ -55,10 +52,8 @@ public class RegisterTest extends TestBase {
         RegisterPage.acceptTos();
         RegisterPage.clickOnButtonSubmit();
 
-
         actualResult = RegisterPage.readErrorMessage();
 
         Assert.assertEquals(actualResult, expectedResult);
     }
-
 }

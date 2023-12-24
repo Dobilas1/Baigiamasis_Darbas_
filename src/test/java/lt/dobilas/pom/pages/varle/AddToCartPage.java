@@ -41,3 +41,4 @@ public class AddToCartPage {
         Common.clickOnElement(Locator.Varle.AddToCard.pirkti);
     }
 }
+

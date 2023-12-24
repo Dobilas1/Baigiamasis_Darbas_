@@ -27,7 +27,6 @@ public class LoginTest extends TestBase {
         LoginPage.inputLoginPassword(password);
         LoginPage.clickOnButtonPrisijungti();
 
-
         actualResult = LoginPage.readName();
 
         Assert.assertEquals(actualResult, expectedResult);
@@ -46,10 +45,8 @@ public class LoginTest extends TestBase {
         LoginPage.inputLoginPassword(password);
         LoginPage.clickOnButtonPrisijungti();
 
-
         actualResult = LoginPage.readError();
 
         Assert.assertEquals(actualResult, expectedResult);
     }
-
 }
